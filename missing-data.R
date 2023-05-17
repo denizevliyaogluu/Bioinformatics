@@ -1,10 +1,7 @@
 if (!require("BiocManager", quietly = TRUE))
   install.packages("BiocManager")
-
 BiocManager::install("impute")
-
 BiocManager::install("ArrayExpress")
-
 BiocManager::install("GEOquery")
 
 #UCI 1 random forest
